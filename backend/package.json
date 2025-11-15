@@ -1,0 +1,27 @@
+{
+  "name": "dynamic-ui-optimizer-backend",
+  "version": "1.0.0",
+  "description": "Backend service for Dynamic UI Optimizer — Swiggy Model.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "dev": "nodemon index.ts",
+    "test": "node test/integration.test.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.2",
+    "redis": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.5.7",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  },
+  "author": "Sirichandanakota",
+  "license": "MIT"
+}
